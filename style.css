@@ -61,21 +61,21 @@ body {
   border-radius: 6px;
   padding: 0.6rem 0.85rem;
   font-size: 0.9rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   background: #fff;
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 .form-group input:focus {
-  border-color: #2563eb;
+  border-color: #3669d7;
   box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
 }
 .form-group input::placeholder { color: #aaa; }
 
 .btn-submit {
   width: 100%;
-  background: #2563eb;
+  background: #051537;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -87,7 +87,7 @@ body {
   margin-top: 0.5rem;
   transition: background 0.2s;
 }
-.btn-submit:hover { background: #1d4ed8; }
+.btn-submit:hover { background: #06143ab7; }
 
 /* Error box */
 .error-box {
@@ -118,6 +118,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   overflow: hidden;
+  width: 100%;
 }
 
 /* Table header columns */
@@ -131,9 +132,10 @@ body {
 .tbl-head span {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #6b7280;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Each row */
@@ -153,19 +155,21 @@ body {
   font-weight: 600;
   color: #1a1a2e;
   text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .student-email {
   font-size: 0.78rem;
   color: #6b7280;
   margin-top: 0.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Course badge */
 .course-badge {
   display: inline-block;
-  background: #06b6d4;
+  background: #051537cf;
   color: #fff;
-  font-size: 0.72rem;
+  font-size: 10px;
   font-weight: 600;
   padding: 0.2rem 0.65rem;
   border-radius: 20px;
@@ -173,11 +177,13 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .enroll-date {
   font-size: 0.85rem;
   color: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Action links */
@@ -188,12 +194,13 @@ body {
 }
 .row-actions a {
   font-size: 0.82rem;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   transition: opacity 0.15s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .row-actions a:hover { opacity: 0.7; }
-.link-edit   { color: #2563eb; }
+.link-edit   { color: #5981d8; }
 .link-delete { color: #ef4444; }
 .row-actions .sep { color: #d1d5db; font-size: 0.8rem; }
 
@@ -213,7 +220,7 @@ body {
 .edit-badge {
   display: inline-block;
   background: #eff6ff;
-  color: #2563eb;
+  color: #0b1730;
   padding: 0.2rem 0.75rem;
   border-radius: 20px;
   font-size: 0.78rem;
@@ -230,7 +237,7 @@ body {
 
 .btn-update {
   width: 100%;
-  background: #2563eb;
+  background: #0b1730;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -242,12 +249,12 @@ body {
   margin-top: 0.5rem;
   transition: background 0.2s;
 }
-.btn-update:hover { background: #1d4ed8; }
+.btn-update:hover { background: #06143ab7; }
 
 .btn-back {
   display: inline-block;
   margin-bottom: 1rem;
-  color: #2563eb;
+  color: #0b1730;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;

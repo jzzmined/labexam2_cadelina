@@ -175,7 +175,7 @@ if ($action === 'list') {
     <!-- LEFT: FORM -->
     <div class="form-panel">
       <div class="form-title">
-        <span class="icon">🎓</span> Enroll Student
+        Enroll Student Form
       </div>
 
       <?php if (!empty($errors)): ?>
